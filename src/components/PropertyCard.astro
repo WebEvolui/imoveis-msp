@@ -1,0 +1,57 @@
+---
+interface Props {
+  property: {
+    slug: string;
+    title: string;
+    description_brief: string;
+    type: string;
+    price: string;
+    images: string[];
+    features: string[];
+  };
+}
+
+const { property } = Astro.props;
+---
+
+<a href={`/${property.slug}`} class="group block bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+  <div class="relative h-64 overflow-hidden">
+    <!-- Image -->
+    {property.images[0] ? (
+      <img 
+        src={property.images[0]} 
+        alt={property.title} 
+        class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" 
+      />
+    ) : (
+      <div class="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400">
+        Sem Imagem
+      </div>
+    )}
+    
+    <!-- Badges -->
+    <div class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+      {property.type}
+    </div>
+    <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
+       <p class="text-white font-bold text-lg">{property.price}</p>
+    </div>
+  </div>
+
+  <div class="p-6">
+    <h3 class="text-xl font-bold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors line-clamp-1">
+      {property.title}
+    </h3>
+    <p class="text-gray-600 text-sm mb-4 line-clamp-2">
+      {property.description_brief}
+    </p>
+
+    <div class="flex flex-wrap gap-2 mt-auto">
+      {property.features.slice(0, 3).map((feature) => (
+        <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">
+          {feature}
+        </span>
+      ))}
+    </div>
+  </div>
+</a>

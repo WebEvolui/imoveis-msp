@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { siteConfig } from '../config/site';
+
+const pageTitle = "Política de Privacidade";
+---
+
+<Layout title={`${pageTitle} - ${siteConfig.name}`} description="Nossa política de privacidade e tratamento de dados.">
+  <Header />
+
+  <main class="bg-gray-50 py-20">
+    <div class="container mx-auto px-4 max-w-4xl mt-10">
+        <div class="bg-white p-10 rounded-2xl shadow-sm border border-gray-100">
+            <h1 class="text-4xl font-bold text-brand-dark mb-8">{pageTitle}</h1>
+            
+            <div class="prose prose-blue max-w-none text-gray-600">
+                <p>A privacidade dos visitantes do nosso site é muito importante para nós. Esta política de privacidade descreve como coletamos, usamos e protegemos as informações pessoais que você nos fornece.</p>
+
+                <h3>1. Coleta de Informações</h3>
+                <p>Coletamos informações pessoais apenas quando você as fornece voluntariamente, por exemplo, ao entrar em contato através de links para WhatsApp, e-mail ou telefone disponíveis no site.</p>
+
+                <h3>2. Uso das Informações</h3>
+                <p>As informações coletadas são utilizadas exclusivamente para:</p>
+                <ul>
+                    <li>Responder às suas dúvidas e solicitações sobre os imóveis.</li>
+                    <li>Agendar visitas aos imóveis de seu interesse.</li>
+                    <li>Melhorar a experiência de navegação em nosso site.</li>
+                </ul>
+
+                <h3>3. Compartilhamento de Dados</h3>
+                <p>Não vendemos, trocamos ou transferimos suas informações pessoais para terceiros não afiliados sem o seu consentimento, exceto quando necessário para fornecer um serviço solicitado por você (ex: financiamento bancário) ou quando exigido por lei.</p>
+
+                <h3>4. Cookies</h3>
+                <p>Nosso site pode utilizar cookies para melhorar a experiência do usuário. Você pode optar por desativar os cookies nas configurações do seu navegador, mas isso pode afetar a funcionalidade de algumas partes do site.</p>
+
+                <h3>5. Alterações nesta Política</h3>
+                <p>Reservamo-nos o direito de atualizar esta política de privacidade a qualquer momento. Recomendamos que você revise esta página periodicamente para estar ciente de quaisquer alterações.</p>
+
+                <h3>6. Contato</h3>
+                <p>Se você tiver dúvidas sobre esta política de privacidade, entre em contato conosco através do e-mail: <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
+                
+                <p class="text-sm text-gray-400 mt-8">Última atualização: {new Date().toLocaleDateString('pt-BR')}</p>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

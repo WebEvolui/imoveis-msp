@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+    /* Premium Real Estate Blue */
+    --color-primary: #0056b3;
+    --color-primary-hover: #004494;
+    --font-sans: 'Inter', sans-serif;
+}
+
+@utility no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@utility bg-primary {
+    background-color: var(--color-primary);
+}
+
+@utility text-primary {
+    color: var(--color-primary);
+}
+
+@utility hover-bg-primary-dark {
+    &:hover {
+        background-color: var(--color-primary-hover);
+    }
+}
