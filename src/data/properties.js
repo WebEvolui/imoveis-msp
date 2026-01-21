@@ -79,38 +79,174 @@ export const properties = [
     },
     {
         id: "2",
-        slug: "casa-condominio-alphaville",
-        title: "Casa em Condomínio em Alphaville",
-        description_brief: "Casa moderna com piscina e área gourmet completa.",
+        slug: "apt-studio-totalmente-mobiliado-60m2",
+        title: "Apt Studio Totalmente Mobiliado 60m²",
+        description_brief: "Apt studio Totalmente mobiliado. 60m². Localizado em condomínio no centro de Morro de São Paulo",
         description: `
-      <p>Casa recém-construída com projeto arquitetônico moderno.</p>
-      <p>São 4 dormitórios sendo 2 suítes, sala com pé direito duplo, cozinha americana e uma área externa fantástica com piscina aquecida.</p>
+      <p>Apt studio Totalmente mobiliado. 60m². Localizado em condomínio no centro de Morro de São Paulo.</p>
+      <p>Obra concluida em outubro de 2025. Totalmente novo, ideal para investimento no Airbnb.</p>
     `,
         type: "Venda",
-        price: "R$ 1.800.000,00",
+        price: "R$ 660.000,00",
         images: [
-            "https://images.unsplash.com/photo-1600596542815-27bfef40239f?q=80&w=2000",
-            "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=80&w=2000",
+            "/images/2/1.jpeg",
+            "/images/2/2.jpeg",
+            "/images/2/3.jpeg",
+            "/images/2/4.jpeg",
+            "/images/2/5.jpeg",
+            "/images/2/6.jpeg",
+            "/images/2/7.jpeg",
+            "/images/2/8.jpeg",
+            "/images/2/9.jpeg",
+            "/images/2/10.jpeg",
+            "/images/2/11.jpeg",
+            "/images/2/12.jpeg",
         ],
-        video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        features: ["4 Domitórios", "300m²", "Piscina"]
+        video: "",
+        features: ["Obra concluída em out/25", "60m²", "Mobiliada", "Condomínio"]
     },
     {
         id: "3",
-        slug: "studio-centro-sp",
-        title: "Studio Moderno no Centro",
-        description_brief: "Investimento garantido ou moradia prática perto do metrô.",
+        slug: "apt-studio-totalmente-mobiliado-40m2",
+        title: "Apt studio Totalmente Mobiliado 40m²",
+        description_brief: "Apt studio Totalmente mobiliado. 40m². Localizado em condomínio no centro de Morro de São Paulo.",
         description: `
-      <p>Excelente studio mobiliado, pronto para morar ou locar.</p>
-      <p>Prédio com lavanderia, coworking e academia. A 5 minutos do metrô República.</p>
+      <p>Apt studio Totalmente mobiliado. 40m². Localizado em condomínio no centro de Morro de São Paulo.</p>
+      <p>Obra concluida em outubro de 2025. Totalmente novo, ideal para investimento no Airbnb.</p>
     `,
-        type: "Aluguel",
-        price: "R$ 2.500,00/mês",
+        type: "Venda",
+        price: "R$ 650.000,00",
         images: [
-            "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?q=80&w=2000",
+            "/images/3/1.jpeg",
+            "/images/3/2.jpeg",
+            "/images/3/3.jpeg",
+            "/images/3/4.jpeg",
+            "/images/3/5.jpeg",
+            "/images/3/6.jpeg",
+            "/images/3/7.jpeg",
+            "/images/3/8.jpeg",
+            "/images/3/9.jpeg",
+            "/images/3/10.jpeg",
+            "/images/3/11.jpeg",
+            "/images/3/12.jpeg",
+            "/images/3/13.jpeg",
+            "/images/3/14.jpeg",
+            "/images/3/15.jpeg",
         ],
         video: "",
-        features: ["30m²", "Mobiliado", "Próximo ao Metrô"]
+        features: ["40m²", "Mobiliada", "Condomínio", "Obra concluída em out/25"]
+    },
+    {
+        id: "4",
+        slug: "apartamento-45m2-segunda-praia",
+        title: "Apartamento 45m² - Segunda Praia",
+        description_brief: "Apartamento 45m² área privativa, localizado próximo à Segunda Praia em condomínio fechado.",
+        description: `
+      <p>Apartamento 45m² área privativa, localizado próximo à Segunda Praia em condomínio fechado.</p>
+      <p>Com área comum contendo piscina panorâmica.</p>
+      <p>Possui Escritura. Totalmente mobiliado.</p>
+      <p>R$ 650.000,00 com possibilidade de financiamento pelo banco.</p>
+    `,
+        type: "Venda",
+        price: "R$ 650.000,00",
+        images: [
+            "/images/4/1.jpeg",
+            "/images/4/2.jpeg",
+            "/images/4/3.jpeg",
+            "/images/4/4.jpeg",
+            "/images/4/5.jpeg",
+            "/images/4/6.jpeg",
+            "/images/4/7.jpeg",
+            "/images/4/8.jpeg",
+            "/images/4/9.jpeg",
+            "/images/4/10.jpeg",
+            "/images/4/11.jpeg",
+            "/images/4/12.jpeg",
+        ],
+        video: "",
+        features: ["45m²", "Segunda Praia", "Condomínio Fechado", "Piscina Panorâmica", "Escritura", "Mobiliado", "Financiável"]
+    },
+    {
+        id: "5",
+        slug: "estudio-41m2-centro",
+        title: "Estúdio 41m² - Centro",
+        description_brief: "Estúdio 41m². Localizado no Centro de Morro de São Paulo. Condomínio fechado.",
+        description: `
+      <p>Estúdio 41m². Localizado no Centro de Morro de São Paulo.</p>
+      <p>Condomínio fechado. Obra entregue em 2025.</p>
+      <p>Fica a 120 metros da Primeira Praia.</p>
+    `,
+        type: "Venda",
+        price: "R$ 480.000,00",
+        images: [
+            "/images/5/1.jpeg",
+            "/images/5/2.jpeg",
+            "/images/5/3.jpeg",
+            "/images/5/4.jpeg",
+            "/images/5/5.jpeg",
+        ],
+        video: "",
+        features: ["41m²", "Centro", "Condomínio Fechado", "Obra 2025", "Perto da Praia"]
+    },
+    {
+        id: "6",
+        slug: "apartamento-2-quartos-100m2",
+        title: "Apartamento 2 Quartos - 100m²",
+        description_brief: "Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa. 100m².",
+        description: `
+      <p>Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa.</p>
+      <p>Sala, cozinha, área de serviço, pontos para ar condicionado em todos os ambientes.</p>
+      <p>100m². Obra pronta e entregue. Novo.</p>
+      <p>Localizado em condomínio de alto padrão no Centro de Morro de São Paulo.</p>
+    `,
+        type: "Venda",
+        price: "R$ 850.000,00",
+        images: [
+            "/images/6/1.jpeg",
+            "/images/6/2.jpeg",
+            "/images/6/3.jpeg",
+            "/images/6/4.jpeg",
+            "/images/6/5.jpeg",
+            "/images/6/6.jpeg",
+            "/images/6/7.jpeg",
+            "/images/6/8.jpeg",
+            "/images/6/9.jpeg",
+            "/images/6/10.jpeg",
+        ],
+        video: "",
+        features: ["100m²", "2 Quartos", "1 Suíte", "Piscina Privativa", "Alto Padrão", "Centro", "Novo"]
+    },
+    {
+        id: "7",
+        slug: "apartamento-2-quartos-130m2",
+        title: "Apartamento 2 Quartos - 130m²",
+        description_brief: "Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa. 130m².",
+        description: `
+      <p>Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa.</p>
+      <p>Sala, cozinha, área de serviço, pontos para ar condicionado em todos os ambientes.</p>
+      <p>130m². Obra pronta e entregue. Novo.</p>
+      <p>Localizado em condomínio de alto padrão no Centro de Morro de São Paulo.</p>
+    `,
+        type: "Venda",
+        price: "R$ 990.000,00",
+        images: [
+            "/images/7/1.jpeg",
+            "/images/7/2.jpeg",
+            "/images/7/3.jpeg",
+            "/images/7/4.jpeg",
+            "/images/7/5.jpeg",
+            "/images/7/6.jpeg",
+            "/images/7/7.jpeg",
+            "/images/7/8.jpeg",
+            "/images/7/9.jpeg",
+            "/images/7/10.jpeg",
+            "/images/7/11.jpeg",
+            "/images/7/12.jpeg",
+            "/images/7/13.jpeg",
+            "/images/7/14.jpeg",
+        ],
+        video: "",
+        features: ["130m²", "2 Quartos", "1 Suíte", "Piscina Privativa", "Alto Padrão", "Centro", "Novo"]
     }
 ];
 
