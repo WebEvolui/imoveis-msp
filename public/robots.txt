@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://imoveismsp.com.br/sitemap-index.xml

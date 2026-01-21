@@ -1,6 +1,7 @@
 export const properties = [
     {
         id: "1",
+        data_cadastro: "2026-01-21",
         slug: "pousada-recem-construida",
         title: "Pousada Recém Construida",
         description_brief: "Pousada recém construída. Acabamento alto padrão. Totalmente mobiliada.",
@@ -79,6 +80,7 @@ export const properties = [
     },
     {
         id: "2",
+        data_cadastro: "2026-01-21",
         slug: "apt-studio-totalmente-mobiliado-60m2",
         title: "Apt Studio Totalmente Mobiliado 60m²",
         description_brief: "Apt studio Totalmente mobiliado. 60m². Localizado em condomínio no centro de Morro de São Paulo",
@@ -107,6 +109,7 @@ export const properties = [
     },
     {
         id: "3",
+        data_cadastro: "2026-01-21",
         slug: "apt-studio-totalmente-mobiliado-40m2",
         title: "Apt studio Totalmente Mobiliado 40m²",
         description_brief: "Apt studio Totalmente mobiliado. 40m². Localizado em condomínio no centro de Morro de São Paulo.",
@@ -138,6 +141,7 @@ export const properties = [
     },
     {
         id: "4",
+        data_cadastro: "2026-01-21",
         slug: "apartamento-45m2-segunda-praia",
         title: "Apartamento 45m² - Segunda Praia",
         description_brief: "Apartamento 45m² área privativa, localizado próximo à Segunda Praia em condomínio fechado.",
@@ -168,6 +172,7 @@ export const properties = [
     },
     {
         id: "5",
+        data_cadastro: "2026-01-21",
         slug: "estudio-41m2-centro",
         title: "Estúdio 41m² - Centro",
         description_brief: "Estúdio 41m². Localizado no Centro de Morro de São Paulo. Condomínio fechado.",
@@ -190,6 +195,7 @@ export const properties = [
     },
     {
         id: "6",
+        data_cadastro: "2026-01-21",
         slug: "apartamento-2-quartos-100m2",
         title: "Apartamento 2 Quartos - 100m²",
         description_brief: "Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa. 100m².",
@@ -218,6 +224,7 @@ export const properties = [
     },
     {
         id: "7",
+        data_cadastro: "2026-01-21",
         slug: "apartamento-2-quartos-130m2",
         title: "Apartamento 2 Quartos - 130m²",
         description_brief: "Apartamento de 2 quartos, sendo 1 suíte. Piscina privativa. 130m².",

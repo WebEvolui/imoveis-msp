@@ -21,9 +21,33 @@ const relatedProperties = properties
   .filter(p => p.id !== property.id)
   .sort(() => 0.5 - Math.random())
   .slice(0, 3);
+
+const priceNumeric = Number(property.price.replace(/[^0-9,]/g, '').replace(',', '.'));
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "RealEstateListing",
+  "name": property.title,
+  "description": property.description_brief,
+  "image": property.images.map(img => new URL(img, Astro.site).href),
+  "datePublished": property.data_cadastro,
+  "url": Astro.url.href,
+  "offers": {
+    "@type": "Offer",
+    "price": isNaN(priceNumeric) ? "0" : priceNumeric,
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock"
+  }
+};
 ---
 
-<Layout title={`${property.title} - ${siteConfig.name}`} description={property.description_brief}>
+<Layout 
+  title={`${property.title} - ${siteConfig.name}`} 
+  description={property.description_brief}
+  image={property.images[0]}
+  type="product"
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
   <Header />
   
   <main class="bg-gray-50 pb-20">
