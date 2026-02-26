@@ -254,6 +254,24 @@ export const properties = [
         ],
         video: "",
         features: ["130m²", "2 Quartos", "1 Suíte", "Piscina Privativa", "Alto Padrão", "Centro", "Novo"]
+    },
+    {
+        id: "8",
+        data_cadastro: "2026-02-26",
+        slug: "terreno-5x10m-gamboa-cairu",
+        title: "Terreno 5x10m - Gamboa do Morro, Cairu, BA",
+        description_brief: "Terreno de 5x10m localizado em Gamboa do Morro, Cairu.",
+        description: `
+      <p>Terreno de 5x10m localizado em Gamboa do Morro Cairu.</p>
+      <p>Excelente localização</p>
+    `,
+        type: "Venda",
+        price: "R$ 50.000,00",
+        images: [
+            "/images/8/1.jpeg",
+        ],
+        video: "",
+        features: ["5x10m", "Gamboa do Morro", "Cairu", "Excelente Localização", "Terreno", "Venda"]
     }
 ];
 
