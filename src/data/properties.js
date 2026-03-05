@@ -272,6 +272,33 @@ export const properties = [
         ],
         video: "",
         features: ["5x10m", "Gamboa do Morro", "Cairu", "Excelente Localização", "Terreno", "Venda"]
-    }
+    },
+    {
+        id: "9",
+        data_cadastro: "2026-03-05",
+        slug: "casa-na-gamboa-do-morro-4-quartoss",
+        title: "Casa na Gamboa do Morro - 4 Quartos - ótima localização",
+        description_brief: "Casa na Gamboa do Morro, Cairu, BA. 4 quartos, nova. Ótima localização.",
+        description: `
+      <p>Casa na Gamboa do Morro, Cairu, BA. 4 quartos, nova. Ótima localização.</p>
+      <p>Próximo ao colégio da nova Gamboa</p>`,
+        type: "Venda",
+        price: "R$ 200.000,00",
+        images: [
+            "/images/9/1.jpeg",
+            "/images/9/2.jpeg",
+            "/images/9/3.jpeg",
+            "/images/9/4.jpeg",
+            "/images/9/5.jpeg",
+            "/images/9/6.jpeg",
+            "/images/9/7.jpeg",
+            "/images/9/8.jpeg",
+            "/images/9/9.jpeg",
+            "/images/9/10.jpeg",
+            "/images/9/11.jpeg",
+        ],
+        video: "",
+        features: ["4 Quartos", "Gamboa do Morro", "Cairu", "Ótima Localização", "Casa", "Venda"]
+    },
 ];
 
